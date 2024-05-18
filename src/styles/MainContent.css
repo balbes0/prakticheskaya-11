@@ -1,0 +1,75 @@
+.div2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+.redtextdiv3 {
+    font-weight: bold; 
+    color: red; 
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.div4 button {
+    width: 200px;
+    color: red;
+    background-color: #E79F4A;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.div4button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.spanbuttondiv4 {
+    align-items: center;
+}
+
+.faqbutton {
+    margin-left: 10px;
+}
+
+.div4 button:hover {
+    background-color: #ee8d1f;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+    .div2 {
+        grid-template-columns: 1fr;
+    }
+}

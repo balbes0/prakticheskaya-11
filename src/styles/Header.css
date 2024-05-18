@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-right: 50px;
+}
+
+header button:hover {
+    background-color: #E79F4A;
+    cursor: pointer;
+}
+
+header .singup {
+    color: red; 
+    background-color: #E79F4A;
+}
+
+@media screen and (max-width: 1023px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    header button {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
